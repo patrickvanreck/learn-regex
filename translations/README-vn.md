@@ -31,9 +31,12 @@
 * [Polish](../translations/README-pl.md)
 * [Русский](../translations/README-ru.md)
 * [Tiếng Việt](../translations/README-vn.md)
+* [فارسی](../translations/README-fa.md)
 
 
 ## Biểu thức chính quy là gì?
+
+[![](https://img.shields.io/badge/-Download%20PDF%20-0a0a0a.svg?style=flat&colorA=0a0a0a)](https://gum.co/learn-regex)
 
 > Biểu thức chính quy là một nhóm các ký tự hoặc ký hiệu được sử dụng để tìm một mẫu cụ thể từ một văn bản.
 

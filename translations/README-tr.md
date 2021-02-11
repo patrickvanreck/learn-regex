@@ -30,8 +30,11 @@
 * [Polish](../translations/README-pl.md)
 * [Русский](../translations/README-ru.md)
 * [Tiếng Việt](../translations/README-vn.md)
+* [فارسی](../translations/README-fa.md)
 
 ## Düzenli İfade Nedir?
+
+[![](https://img.shields.io/badge/-Download%20PDF%20-0a0a0a.svg?style=flat&colorA=0a0a0a)](https://gum.co/learn-regex)
 
 > Düzenli ifade, bir metinden belirli bir deseni bulmak için kullanılan bir karakter veya sembol grubudur.
 

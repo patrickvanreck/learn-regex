@@ -30,8 +30,11 @@
 * [Polish](../translations/README-pl.md)
 * [Русский](../translations/README-ru.md)
 * [Tiếng Việt](../translations/README-vn.md)
+* [فارسی](../translations/README-fa.md)
 
 ## Qu'est-ce qu'une expression régulière?
+
+[![](https://img.shields.io/badge/-Download%20PDF%20-0a0a0a.svg?style=flat&colorA=0a0a0a)](https://gum.co/learn-regex)
 
 > Une expression régulière est un groupement de caractères ou symboles utilisés pour trouver un schéma spécifique dans un texte.
 
