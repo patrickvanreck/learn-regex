@@ -21,13 +21,14 @@
 * [Polish](../translations/README-pl.md)
 * [Русский](../translations/README-ru.md)
 * [Tiếng Việt](../translations/README-vn.md)
+* [עברית](translations/README-he.md)
 
 ## Was sind Reguläre Ausdrücke?
 
 [![](https://img.shields.io/badge/-Download%20PDF%20-0a0a0a.svg?style=flat&colorA=0a0a0a)](https://gum.co/learn-regex)
 
 > Ein regulärer Ausdruck ist eine Gruppe von Buchstaben und Symbolen, die benutzt werden um ein bestimmtes Muster in einem Text zu finden.
-Ein regulärer Ausdruch ist ein Muster, das mit einem zu durchsuchenden Text von links nach rechts abgeglichen wird. Die Bezeichnung
+Ein regulärer Ausdruck ist ein Muster, das mit einem zu durchsuchenden Text von links nach rechts abgeglichen wird. Die Bezeichnung
 "Regulärer Ausdruck" ist in der Praxis unüblich und stattdessen wird häufig die Englische Abkürzung "Regex" oder "RegExp" (*regular expression*) verwendet. Reguläre
 Ausdrücke werden verwendet, um Fragemente eines Textes zu ersetzen, Formulare zu validieren, Segmente eines Textes anhand eines
 Musters zu extrahieren und für vieles mehr.
@@ -40,7 +41,7 @@ wir die Anzahl der Zeichen limitieren, damit der Name nicht unlesbar wird. Dazu 
   <img src="../img/regexp-en.png" alt="Regular expression">
 </p>
 
-Der abgebildete reguläre Ausdruck erlaubt bspw. die Eingaben `john_doe`, `jo-hn_doe` und `john12_as`. Der Eingabe `Jo` wird nicht akzeptiert, da sie einen Großbuchstaben enthält und zu kurz ist.
+Der abgebildete reguläre Ausdruck erlaubt bspw. Die Eingaben `john_doe`, `jo-hn_doe` und `john12_as`. Die Eingabe `Jo` wird nicht akzeptiert, weil sie einen Großbuchstaben enthält und zu kurz ist.
 
 ## Inhaltsverzeichnis
 
@@ -168,7 +169,7 @@ beliebige Anzahl von Kleinbuchstaben in Folge.
 
 Das `*`-Symbol kann zusammen mit dem Metazeichen `.` verwendet werden, um mit einer vollkommen beliebigen Zeichenkette übereinzustimmen `.*`.
 Es kann auch mit der vordefinierten Zeichenklasse `\s` verwendet werden, um mit beliebig viel Leerraum (Leerzeichen, Tabulatoren, Zeilenumbrüchen)
-übereinzustimmen. Der Ausdruck `\s*cat\*` heißt zum Beispiel: null oder mehrere Leerzeichen, gefolgt von dem Buchstaben `c`, gefolgt vom Buchstaben `a`, 
+übereinzustimmen. Der Ausdruck `\s*cat\s*` heißt zum Beispiel: null oder mehrere Leerzeichen, gefolgt von dem Buchstaben `c`, gefolgt vom Buchstaben `a`, 
 gefolgt vom Buchstaben `t` und schließlich gefolgt von null oder mehreren Leerzeichen.
 
 <pre>
